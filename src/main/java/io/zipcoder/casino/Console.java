@@ -44,7 +44,8 @@ public class Console {
                 !input.equalsIgnoreCase("exit"));
 
         if(input.equalsIgnoreCase("blackjack")||input.equalsIgnoreCase("b")) {
-           // playBlackJack();
+            BlackConsole.starBlackJackGame ();
+
         }
         else if(input.equalsIgnoreCase("craps")||input.equalsIgnoreCase("c")){
             playCraps();

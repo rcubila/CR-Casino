@@ -1,7 +1,6 @@
 package io.zipcoder.casino;
 
-public enum Suit
-{
+public enum Suit {
     HEART( "♡"),
     DIAMOND("♢"),
     CLUB("♤"),
@@ -12,8 +11,6 @@ public enum Suit
     Suit( String cardSymbol) {
         this.cardSymbol = cardSymbol;
     }
-
-
     public String getCardSymbol() {
         return cardSymbol;
     }

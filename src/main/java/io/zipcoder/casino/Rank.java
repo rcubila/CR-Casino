@@ -1,7 +1,6 @@
 package io.zipcoder.casino;
 
-public enum Rank
-{
+public enum Rank {
     ACE(11, "11"),
     TWO(2, "2"),
     THREE(3, "3"),
@@ -19,12 +18,10 @@ public enum Rank
     private final int value;
     private final String symbol;
 
-
     Rank(int val, String symbol) {
         this.value = val;
         this.symbol = symbol;
     }
-
 
     public int getValue() {
         return value;
@@ -36,9 +33,7 @@ public enum Rank
 
     @Override
     public String toString() {
-        return "Rank{" +
-                "value=" + value +
-                '}';
+        return "Rank{" + "value=" + value + '}';
     }
 }
 
